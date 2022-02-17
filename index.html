@@ -33,7 +33,7 @@
                 <table>
                   <tr>
                     <td>Income:</td>
-                    <td><input id="income"type="number" placeholder="Enter Income"/></td>
+                    <td><input id="income" type="number" value="0"/></td>
                   </tr>
                 </table>
             </div>
@@ -67,12 +67,12 @@
           <div class="saving-remining mt-5">
               <div class="saving">
                   <span>Save: </span>
-                  <span class="parcentage">20</span>
+                  <input id="percentage" type="number" placeholder="Enter percentage">
                   <span class="mx-1"> % </span>
-                  <button class="saving-button bg-primary">Save</button>
+                  <button id="saving" class="saving-button bg-primary">Save</button>
               </div>
-              <h5>Saving Amount: <span>0</span></h5>
-              <h5>Remaining Balance: <span>0</span></h5>
+              <h5>Saving Amount: <span id="saving-amount">0</span></h5>
+              <h5>Remaining Balance: <span id="remaining-balance">0</span></h5>
           </div>
 
         </div>

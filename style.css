@@ -40,11 +40,11 @@ table tr td {
   margin-bottom: 10px;
 }
 .parcentage {
-  background-color: rgb(195, 195, 195);
   width: 40px;
   height: 30px;
   padding: 2px 20px;
   border-radius: 2px;
+  border: none;
 }
 
 .saving-button {
