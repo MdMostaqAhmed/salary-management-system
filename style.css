@@ -1,16 +1,56 @@
-/* .container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-} */
-.calc-img{
-    
-    height: 815px;
-    border: 2px solid black;
-    margin-right: 5px;
+.calc-img {
+  height: 815px;
+  border: 2px solid black;
+  margin-right: 5px;
 }
-.calc{
-    width: 100%;
-    
+.calc {
+  width: 100%;
 }
 
+.salary-management {
+  background-color: #f8f8f8;
+  width: 542px;
+  height: 815px;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+h5 {
+  text-align: center;
+}
+table tr td {
+  padding: 5px;
+}
+.calculate {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.calculate-button {
+  width: 180px;
+}
+.saving-remining {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.saving {
+  margin-bottom: 10px;
+}
+.parcentage {
+  background-color: rgb(195, 195, 195);
+  width: 40px;
+  height: 30px;
+  padding: 2px 20px;
+  border-radius: 2px;
+}
+
+.saving-button {
+  width: 100px;
+  height: 30px;
+  border: none;
+  color: white;
+  border-radius: 2px;
+}
