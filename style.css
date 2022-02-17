@@ -1,5 +1,5 @@
+/* Image style */
 .calc-img {
-  
   border: 2px solid black;
   margin-right: 5px;
 }
@@ -7,19 +7,24 @@
   width: 100%;
 }
 
+/* Input box style */
 .salary-management {
   background-color: #f8f8f8;
   border: 2px solid black;
   padding: 10px;
-  padding-bottom: 5px;
+  
 }
 
+/* Style for all h5 tag */
 h5 {
   text-align: center;
 }
+/* Table Style */
 table tr td {
   padding: 5px;
 }
+
+/* Calculator section */
 .calculate {
   margin-top: 20px;
   display: flex;
@@ -29,6 +34,8 @@ table tr td {
 .calculate-button {
   width: 180px;
 }
+
+/* Saving section */
 .saving-remaining {
   display: flex;
   align-items: center;
@@ -38,6 +45,8 @@ table tr td {
 .saving {
   margin-bottom: 10px;
 }
+
+/* percentage section */
 .percentage {
   width: 40px;
   height: 30px;
@@ -46,6 +55,7 @@ table tr td {
   border: none;
 }
 
+/* Saving button */
 .saving-button {
   width: 100px;
   height: 30px;

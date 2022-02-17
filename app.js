@@ -16,8 +16,11 @@ function totalExpenses() {
       return alert('Please enter valid number'), total = 0, income = 0;
     }
 
-    else if ( income > total ){
-      return total;
+    else if ( parseInt(foodCost.value) < 0 ||  parseInt(rentCost.value) < 0 || parseInt(clothCost.value) < 0){
+      return alert('Please enter positive number')
+    }
+    else{
+      return total
     }
 }
 
@@ -29,7 +32,14 @@ function balance() {
   const income = parseInt(incomeText.value);
   const balance = (document.getElementById("balance").innerText = income - expenses);
   
+  if (income < total) {
+    return alert('Please enter positive number'), total = 0, income = 0;
+  }
+
+  else if ( income > total ){
     return balance;
+  }
+    
  
    }
 
@@ -57,7 +67,7 @@ function remainingBalance() {
  let remainingBalance = document.getElementById('remaining-balance').innerText = balance() - savingAmount();
 
  if (remainingBalance < 0) {
-   return alert('Please enter valid percentage amount'), remainingBalance = (document.getElementById('remaining-balance').innerText = balance()), saving = 0;
+   return alert('Please enter valid percentage amount'), remainingBalance = (document.getElementById('remaining-balance').innerText = balance());
  } else if (remainingBalance > 0 ){
    return remainingBalance
  }
