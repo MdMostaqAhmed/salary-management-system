@@ -1,5 +1,5 @@
 .calc-img {
-  height: 815px;
+  
   border: 2px solid black;
   margin-right: 5px;
 }
@@ -9,10 +9,9 @@
 
 .salary-management {
   background-color: #f8f8f8;
-  width: 542px;
-  height: 815px;
   border: 2px solid black;
   padding: 10px;
+  padding-bottom: 5px;
 }
 
 h5 {
@@ -30,7 +29,7 @@ table tr td {
 .calculate-button {
   width: 180px;
 }
-.saving-remining {
+.saving-remaining {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -39,7 +38,7 @@ table tr td {
 .saving {
   margin-bottom: 10px;
 }
-.parcentage {
+.percentage {
   width: 40px;
   height: 30px;
   padding: 2px 20px;

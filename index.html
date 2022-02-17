@@ -15,67 +15,69 @@
   </head>
   <body>
     <h1 class="text-center m-5">Salary Management</h1>
-    <div class="container d-flex">
-      <!-- calculator image -->
-      <!-- <div class="col-md-6">
-                <div class="calc-img">
-                    <img class="calc" src="calc.jpg" alt="">
-                </div>
-            </div> -->
-
-      <!-- Salary Management -->
-      <div class="col-md-6">
-        <div class="salary-management">
-
-            <!-- Income -->
-            <div class="mt-3">
-                <h5>Income</h5>
-                <table>
-                  <tr>
-                    <td>Income:</td>
-                    <td><input id="income" type="number" value="0"/></td>
-                  </tr>
-                </table>
-            </div>
-
-          <!-- Expenses -->
-          <div class="mt-5">
-            <h5>Expenses</h5>
-            <table>
-              <tr>
-                <td>Food:</td>
-                <td><input id="food-cost" type="number" value="0"/></td>
-              </tr>
-              <tr>
-                <td>Rent:</td>
-                <td><input id="rent-cost" type="number" value="0"/></td>
-              </tr>
-              <tr>
-                <td>Cloths:</td>
-                <td><input id="cloth-cost" type="number" value="0""/></td>
-              </tr>
-            </table
-          </div>
-          <!-- Calculate Button  -->
-          <div class="calculate mt-5">
-            <button id="calculate" class="btn bg-primary text-white calculate-button">Calculate</button>
-            <h5>Total Expenses: <span id="expenses">0</span></h5>
-            <h5>Balance: <span id="balance">0</span></h5>
-          </div>
-
-          <!-- Saving -->
-          <div class="saving-remining mt-5">
-              <div class="saving">
-                  <span>Save: </span>
-                  <input id="percentage" type="number" value="0">
-                  <span class="mx-1"> % </span>
-                  <button id="saving" class="saving-button bg-primary">Save</button>
-              </div>
-              <h5>Saving Amount: <span id="saving-amount">0</span></h5>
-              <h5>Remaining Balance: <span id="remaining-balance">0</span></h5>
-          </div>
-
+    <div class="container d-flex mb-5">
+      <div class="row">
+        <!-- calculator image -->
+      <div class="col-md-6 col-sm-12">
+        <div class="calc-img">
+            <img class="calc" src="calc.jpg" alt="">
         </div>
+    </div>
+
+<!-- Salary Management -->
+<div class="col-md-6 col-sm-12">
+<div class="salary-management">
+
+    <!-- Income -->
+    <div class="mt-3">
+        <h5>Income</h5>
+        <table>
+          <tr>
+            <td>Income:</td>
+            <td><input id="income" type="number" value="0" /></td>
+          </tr>
+        </table>
+    </div>
+
+  <!-- Expenses -->
+  <div class="mt-5">
+    <h5>Expenses</h5>
+    <table>
+      <tr>
+        <td>Food:</td>
+        <td><input id="food-cost" type="number" value="0"/></td>
+      </tr>
+      <tr>
+        <td>Rent:</td>
+        <td><input id="rent-cost" type="number" value="0"/></td>
+      </tr>
+      <tr>
+        <td>Cloths:</td>
+        <td><input id="cloth-cost" type="number" value="0""/></td>
+      </tr>
+    </table
+  </div>
+  <!-- Calculate Button  -->
+  <div class="calculate mt-5">
+    <button id="calculate" class="btn bg-primary text-white calculate-button">Calculate</button>
+    <h5>Total Expenses: <span id="expenses">0</span></h5>
+    <h5>Balance: <span id="balance">0</span></h5>
+  </div>
+
+  <!-- Saving -->
+  <div class="saving-remaining mt-5 mb-3">
+      <div class="saving">
+          <span>Save: </span>
+          <input id="percentage" type="number" value="0">
+          <span class="mx-1"> % </span>
+          <button id="saving" class="saving-button bg-primary">Save</button>
+      </div>
+      <h5>Saving Amount: <span id="saving-amount">0</span></h5>
+      <h5>Remaining Balance: <span id="remaining-balance">0</span></h5>
+  </div>
+
+</div>
+</div>
       </div>
     </div>
     <script src="app.js"></script>
