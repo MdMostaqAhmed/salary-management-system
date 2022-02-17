@@ -1,0 +1,16 @@
+/* .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+} */
+.calc-img{
+    
+    height: 815px;
+    border: 2px solid black;
+    margin-right: 5px;
+}
+.calc{
+    width: 100%;
+    
+}
+
